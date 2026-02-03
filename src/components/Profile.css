@@ -1,0 +1,92 @@
+.profile-section {
+    background-color: var(--color-bg-light);
+    padding: 6rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-desc {
+    color: var(--color-text-muted);
+    max-width: 600px;
+    margin: 0 auto 3rem;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.profile-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border-top: 4px solid transparent;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.profile-card.mission {
+    border-top-color: var(--color-primary);
+}
+
+.profile-card.vision {
+    border-top-color: var(--color-accent);
+}
+
+.profile-card.values {
+    border-top-color: var(--color-orange);
+}
+
+.profile-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(15, 52, 96, 0.05);
+    /* slightly tinted primary */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    color: var(--color-primary);
+}
+
+.profile-card.vision .profile-icon {
+    color: var(--color-accent);
+    background-color: rgba(0, 173, 181, 0.1);
+}
+
+.profile-card.values .profile-icon {
+    color: var(--color-orange);
+    background-color: rgba(255, 102, 0, 0.1);
+}
+
+.profile-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.profile-card p {
+    color: var(--color-text-muted);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.values-list {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.values-list li {
+    margin-bottom: 0.5rem;
+    color: var(--color-text-muted);
+}
