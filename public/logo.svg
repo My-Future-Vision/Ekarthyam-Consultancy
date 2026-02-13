@@ -1,0 +1,39 @@
+<svg width="340" height="80" viewBox="0 0 340 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(5, 5) scale(0.7)">
+        <!-- Complex Rosette/Mandala Shape -->
+        <!-- Center positions shifted to (50, 50) relative to this group -->
+        
+        <!-- Outer Blue Ring -->
+        <circle cx="50" cy="50" r="46" stroke="#0F3460" stroke-width="4" fill="none"/>
+        
+        <!-- The "Petal" Arcs (Blue) -->
+        <path d="M50 4 Q 65 30 50 45 Q 35 30 50 4" fill="none" stroke="#0F3460" stroke-width="3"/>
+        <path d="M50 96 Q 65 70 50 55 Q 35 70 50 96" fill="none" stroke="#0F3460" stroke-width="3"/>
+        <path d="M4 50 Q 30 65 45 50 Q 30 35 4 50" fill="none" stroke="#0F3460" stroke-width="3"/>
+        <path d="M96 50 Q 70 65 55 50 Q 70 35 96 50" fill="none" stroke="#0F3460" stroke-width="3"/>
+        
+        <!-- Diagonal Diamond Shapes (Blue) -->
+        <path d="M18 18 L 35 35" stroke="#0F3460" stroke-width="3" stroke-linecap="round"/>
+        <path d="M82 18 L 65 35" stroke="#0F3460" stroke-width="3" stroke-linecap="round"/>
+        <path d="M18 82 L 35 65" stroke="#0F3460" stroke-width="3" stroke-linecap="round"/>
+        <path d="M82 82 L 65 65" stroke="#0F3460" stroke-width="3" stroke-linecap="round"/>
+
+        <!-- Inner Teal Circle -->
+        <circle cx="50" cy="50" r="28" stroke="#00ADB5" stroke-width="3" fill="none"/>
+        <!-- Decorative Teal Swirls/Arcs -->
+        <path d="M28 42 Q 50 18 72 42" stroke="#00ADB5" stroke-width="2" fill="none" opacity="0.9"/>
+        <path d="M28 58 Q 50 82 72 58" stroke="#00ADB5" stroke-width="2" fill="none" opacity="0.9"/>
+        
+        <!-- The Letter E (Orange) - Bold and Centered -->
+        <text x="50" y="66" font-family="Arial, sans-serif" font-weight="900" font-size="44" fill="#FF6600" text-anchor="middle">E</text>
+    </g>
+
+    <!-- Text Group - Aligned to match the reference lockup -->
+    <g transform="translate(80, 15)">
+        <!-- Main Title: EKARTHYAM -->
+        <text x="0" y="30" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="36" fill="#0F3460" letter-spacing="0.5">EKARTHYAM</text>
+        
+        <!-- Subtitle: CONSULTANCY SERVICES PVT. LTD. -->
+        <text x="2" y="50" font-family="'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="11.5" fill="#1A1A2E" letter-spacing="0.8">CONSULTANCY SERVICES PVT. LTD.</text>
+    </g>
+</svg>

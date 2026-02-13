@@ -1,0 +1,52 @@
+.industries-section {
+    padding: 6rem 0;
+    background-color: #fafafa;
+}
+
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.industry-card {
+    background: white;
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.industry-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    border-color: rgba(var(--color-primary-rgb), 0.1);
+}
+
+.industry-icon {
+    width: 64px;
+    height: 64px;
+    background: #eef2ff;
+    color: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.industry-card:hover .industry-icon {
+    background: var(--color-primary);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.industry-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}

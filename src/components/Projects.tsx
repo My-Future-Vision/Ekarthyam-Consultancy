@@ -1,31 +1,17 @@
 import React from 'react';
 import './Projects.css';
+// import { ExternalLink } from 'lucide-react'; // ExternalLink used in loop
 import { ExternalLink } from 'lucide-react';
+import data from '../assets/data.json';
+import { Link } from 'react-router-dom';
 
-export const Projects: React.FC = () => {
-    const projects = [
-        {
-            title: "Enterprise LMS Platform",
-            category: "Web Application",
-            tech: ["React", "Node.js", "PostgreSQL"],
-            description: "A comprehensive learning management system serving 10k+ employees with real-time analytics.",
-            image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-        },
-        {
-            title: "AI Customer Support Bot",
-            category: "Gen AI Integration",
-            tech: ["Python", "OpenAI API", "Vector DB"],
-            description: "Intelligent chatbot reducing support ticket volume by 40% through automated query resolution.",
-            image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-        },
-        {
-            title: "Performance Analytics Dashboard",
-            category: "Data Visualization",
-            tech: ["TypeScript", "D3.js", "AWS"],
-            description: "Interactive dashboard for HR teams to monitor and evaluate corporate performance metrics.",
-            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-        }
-    ];
+interface ProjectsProps {
+    limit?: number;
+}
+
+export const Projects: React.FC<ProjectsProps> = ({ limit }) => {
+    const projects = data.projects;
+    const displayedProjects = limit ? projects.slice(0, limit) : projects;
 
     return (
         <section id="projects" className="projects-section">
@@ -36,7 +22,7 @@ export const Projects: React.FC = () => {
                 </div>
 
                 <div className="projects-grid">
-                    {projects.map((project, index) => (
+                    {displayedProjects.map((project, index) => (
                         <div key={index} className="project-card">
                             <div className="project-image">
                                 <img src={project.image} alt={project.title} />
@@ -55,6 +41,14 @@ export const Projects: React.FC = () => {
                         </div>
                     ))}
                 </div>
+
+                {limit && (
+                    <div className="view-more-container" style={{ textAlign: 'center', marginTop: '3rem' }}>
+                        <Link to="/projects" className="btn btn-primary">
+                            View More Projects
+                        </Link>
+                    </div>
+                )}
             </div>
         </section>
     );

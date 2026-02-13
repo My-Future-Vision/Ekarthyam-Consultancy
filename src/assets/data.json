@@ -1,0 +1,206 @@
+{
+    "projects": [
+        {
+            "title": "Enterprise LMS Platform",
+            "category": "Web Application",
+            "tech": [
+                "React",
+                "Node.js",
+                "PostgreSQL"
+            ],
+            "description": "A comprehensive learning management system serving 10k+ employees with real-time analytics.",
+            "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+            "title": "AI Customer Support Bot",
+            "category": "Gen AI Integration",
+            "tech": [
+                "Python",
+                "OpenAI API",
+                "Vector DB"
+            ],
+            "description": "Intelligent chatbot reducing support ticket volume by 40% through automated query resolution.",
+            "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+            "title": "Performance Analytics Dashboard",
+            "category": "Data Visualization",
+            "tech": [
+                "TypeScript",
+                "D3.js",
+                "AWS"
+            ],
+            "description": "Interactive dashboard for HR teams to monitor and evaluate corporate performance metrics.",
+            "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+            "title": "Autonomous FinTech Agent",
+            "category": "Agentic AI",
+            "tech": [
+                "Python",
+                "LangChain",
+                "Kafka"
+            ],
+            "description": "Self-learning agent detecting fraudulent transactions in real-time with 99.9% accuracy.",
+            "image": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+            "title": "Smart Healthcare Assistant",
+            "category": "Gen AI Solutions",
+            "tech": [
+                "FastAPI",
+                "Med-PaLM",
+                "React"
+            ],
+            "description": "HIPAA-compliant AI assistant for patient triage and automated appointment scheduling.",
+            "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+            "title": "Cloud Migration Coordinator",
+            "category": "Consulting & DevOps",
+            "tech": [
+                "Terraform",
+                "Kubernetes",
+                "Azure"
+            ],
+            "description": "Orchestrated the migration of legacy banking systems to a cloud-native microservices architecture.",
+            "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+            "title": "Immersive VR Training",
+            "category": "EdTech / LMS",
+            "tech": [
+                "Unity",
+                "C#",
+                "Oculus SDK"
+            ],
+            "description": "VR-based technical training module integrated with the corporate LMS for hazard safety simulations.",
+            "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        }
+    ],
+    "services": [
+        {
+            "id": "lms",
+            "title": "Learning Management System (LMS) Solutions",
+            "description": "Design, develop, and scale powerful learning platforms tailored to your organization.",
+            "highlight": "Education",
+            "icon": "BookOpen",
+            "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+            "details": {
+                "whatWeOffer": [
+                    "Custom LMS Development",
+                    "Enterprise LMS Architecture",
+                    "LMS Integration (HRMS, CRM, ERP)",
+                    "AI-Driven Personalized Learning",
+                    "SCORM & xAPI Implementation",
+                    "Multi-tenant LMS Platforms",
+                    "Cloud Deployment & DevOps",
+                    "Migration & Modernization"
+                ],
+                "idealFor": [
+                    "Educational Institutions",
+                    "Corporate Training Teams",
+                    "EdTech Startups",
+                    "Skill Development Platforms"
+                ]
+            }
+        },
+        {
+            "id": "gen-ai",
+            "title": "Generative AI Solutions",
+            "description": "Unlock the power of AI to automate content, enhance productivity, and drive innovation.",
+            "highlight": "Trending",
+            "icon": "Brain",
+            "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+            "details": {
+                "capabilities": [
+                    "AI Chatbots & Virtual Assistants",
+                    "Content & Question Generation Systems",
+                    "AI-Powered Knowledge Assistants",
+                    "Text-to-Image & Multimodal Systems",
+                    "Custom LLM Integration",
+                    "Retrieval Augmented Generation (RAG)",
+                    "Prompt Engineering & Fine-Tuning",
+                    "Private AI Deployments"
+                ],
+                "businessUseCases": [
+                    "Automated Support Systems",
+                    "Intelligent Document Processing",
+                    "AI Copilot for Enterprises",
+                    "Marketing & Content Automation"
+                ]
+            }
+        },
+        {
+            "id": "agentic-ai",
+            "title": "Agentic AI Systems",
+            "description": "Build autonomous AI agents that reason, plan, and execute tasks.",
+            "highlight": "Future-Ready",
+            "icon": "Bot",
+            "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+            "details": {
+                "specialization": [
+                    "Multi-Agent Architectures",
+                    "Workflow Automation Agents",
+                    "AI Decision Engines",
+                    "Task Orchestration Systems",
+                    "Tool-Using AI Agents",
+                    "Enterprise AI Assistants"
+                ],
+                "exampleApplications": [
+                    "Autonomous Customer Support",
+                    "AI Research Assistants",
+                    "DevOps Automation Agents",
+                    "AI Operations Analysts"
+                ]
+            }
+        },
+        {
+            "id": "consulting",
+            "title": "Software Consulting & Engineering",
+            "description": "End-to-end software consulting, from architecture to deployment.",
+            "highlight": "Expertise",
+            "icon": "Code",
+            "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+            "details": {
+                "servicesInclude": [
+                    "System Architecture & Design",
+                    "Cloud-Native Application Development",
+                    "Microservices & API Design",
+                    "Kubernetes & DevOps Implementation",
+                    "Workflow Automation (Camunda, Zeebe)",
+                    "Observability & Monitoring (LGTM Stack)",
+                    "Performance Optimization",
+                    "Security & Compliance Architecture"
+                ]
+            }
+        }
+    ],
+    "technologies": [
+        "Python",
+        "Java",
+        "Spring Boot",
+        "FastAPI",
+        "Node.js",
+        "Kubernetes",
+        "Docker",
+        "Camunda",
+        "Zeebe",
+        "Vector Databases",
+        "OpenAI",
+        "LLM Integrations",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Elasticsearch",
+        "Observability Stack"
+    ],
+    "industries": [
+        "EdTech",
+        "FinTech",
+        "Healthcare",
+        "SaaS Startups",
+        "Enterprise IT",
+        "Government & Public Sector"
+    ]
+}
