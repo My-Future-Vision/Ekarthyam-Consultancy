@@ -66,7 +66,7 @@ export const Header: React.FC = () => {
       <div className="container header-content">
         <div className="logo-container">
           <img
-            src="/logo.svg"
+            src={`${import.meta.env.BASE_URL}logo.svg`}
             alt="Ekarthyam Logo"
             className="logo-img"
             onClick={(e) => handleNavClick(e, '/')}

@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
                 <div className="hero-visual">
                     {/* Logo in Circle */}
                     <div className="hero-logo-container">
-                        <img src="/logo.svg" alt="Ekarthyam Logo" className="hero-logo" />
+                        <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Ekarthyam Logo" className="hero-logo" />
                     </div>
                 </div>
             </div>
