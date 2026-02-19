@@ -24,9 +24,10 @@ export const Footer: React.FC = () => {
                 <div className="footer-contact">
                     <h4>Contact Us</h4>
                     <ul>
-                        <li><Mail size={16} /> contact@ekarthyam.com</li>
-                        <li><Phone size={16} /> +91 98765 43210</li>
-                        <li><MapPin size={16} /> Tech Park, Bangalore, India</li>
+                        <li><Mail size={16} /> admin@ekarthyamconsultancy.co.in</li>
+                        <li><Mail size={16} /> info@ekarthyamconsultancy.co.in</li>
+                        <li><Phone size={16} /> +91 97779 67942</li>
+                        <li><MapPin size={16} /> Bhubaneswar, Odisha</li>
                     </ul>
                 </div>
 
